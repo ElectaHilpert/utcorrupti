@@ -1,0 +1,31 @@
+{
+  "name": "utcorrupti",
+  "version": "1.0.0",
+  "description": "Build DOM using TS",
+  "keywords": [
+    "et",
+    "perspiciatis",
+    "typescript"
+  ],
+  "author": "NyasiaLehner",
+  "license": "MIT",
+  "homepage": "https://github.com/ElectaHilpert/utcorrupti.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ElectaHilpert/utcorrupti.git"
+  },
+  "main": "./build/esm/index.js",
+  "types": "./build/types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./build/types/index.d.ts",
+      "require": "./build/cjs/index.js",
+      "import": "./build/esm/index.js",
+      "default": "./build/esm/index.js"
+    }
+  },
+  "devDependencies": {
+    "@types/node": "^20.6.3",
+    "typescript": "^5.2.2"
+  }
+}
